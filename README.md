@@ -1,2 +1,3 @@
 # freeCodeCamp-product-landing-page
-Solution to freeCodeCamp Product Landing Page Project
+
+This repository contains solutions to freeCodeCamp's Responsive Page Certification Project Web Design Product Landing

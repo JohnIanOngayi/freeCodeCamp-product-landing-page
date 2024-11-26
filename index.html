@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>freeCodeCamp Product Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Emoji:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
     <link href="css/style.css" rel="stylesheet" />
     <link
       rel="stylesheet"
@@ -36,39 +42,41 @@
             type="email"
             placeholder="Enter your email address"
           />
-          <input id="submit" type="submit" value="GET STARTED" />
+          <button id="submit" type="submit" value="GET STARTED">
+            GET STARTED
+          </button>
         </form>
       </section>
       <section id="features">
-        <div id="">
-          <i class="fa fa-3x fa-fire"></i>
-          <article>
+        <div class="product-info">
+          <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+          <div>
             <h1>Premium Materials</h1>
             <p>
               Our trombones use the shiniest brass which is sourced locally.
               This will increase the longevity of your purchase.
             </p>
-          </article>
+          </div>
         </div>
-        <div id="">
-          <i class="fa fa-3x fa-truck"></i>
-          <article>
+        <div class="product-info">
+          <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+          <div>
             <h1>Fast Shipping</h1>
             <p>
               We make sure you recieve your trombone as soon as we have finished
               making it. We also provide free returns if you are not satisfied.
             </p>
-          </article>
+          </div>
         </div>
-        <div id="">
-          <i class="fa fa-3x fa-battery-full"></i>
-          <article>
+        <div class="product-info">
+          <div class="icon"><i class="fa fa-3x fa-battery-full"></i></div>
+          <div>
             <h1>Quality Assurance</h1>
             <p>
               For every purchase you make, we will ensure there are no damages
               or faults and we will check and test the pitch of your instrument.
             </p>
-          </article>
+          </div>
         </div>
       </section>
       <iframe
@@ -85,8 +93,8 @@
       <section id="pricing">
         <div>
           <h2>TENOR TROMBONE</h2>
-          <h1 id="price">$600</h1>
-          <p id="description">
+          <h1 class="price">$600</h1>
+          <p class="description">
             <span>Lorem ipsum.</span>
             <span>Lorem ipsum.</span>
             <span>Lorem ipsum dolor.</span>
@@ -96,8 +104,8 @@
         </div>
         <div>
           <h2>BASS TROMBONE</h2>
-          <h1 id="price">$900</h1>
-          <p id="description">
+          <h1 class="price">$900</h1>
+          <p class="description">
             <span>Lorem ipsum.</span>
             <span>Lorem ipsum.</span>
             <span>Lorem ipsum dolor.</span>
@@ -107,8 +115,8 @@
         </div>
         <div>
           <h2>VALVE TROMBONE</h2>
-          <h1 id="price">$1200</h1>
-          <p id="description">
+          <h1 class="price">$1200</h1>
+          <p class="description">
             <span>Plays similar to a Trumpet</span>
             <span>Great for Jazz Bands</span>
             <span>Lorem ipsum dolor.</span>
